@@ -43,7 +43,11 @@ import { Vehicle } from '../../models/vehicle.model';
       background: white;
       box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     }
-
+    
+    .vehicle-card h3 {
+      margin-bottom: 10px;
+      color: #2c3e50;
+    }
     
     .vehicle-card p {
       margin: 8px 0;

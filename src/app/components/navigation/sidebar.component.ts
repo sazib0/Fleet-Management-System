@@ -60,6 +60,28 @@ import { CommonModule } from '@angular/common';
       font-weight: 600;
     }
 
+    .nav-items {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .nav-item {
+      padding: 15px 20px;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .nav-item:hover {
+      background-color: #283593;
+    }
+
+    .nav-item.active {
+      background-color: #283593;
+    }
+
     .icon {
       margin-right: 10px;
     }
